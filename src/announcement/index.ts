@@ -5,7 +5,7 @@ export const SETUP_STRING = "liveShaders.setup.version";
 
 export async function checkNewAnnouncement(memento: Memento) {
   const packageJSON = extensions.getExtension(
-    "ritwickdey.LiveServer"
+    "mtmckenna.LiveShaders"
   ).packageJSON;
   const announment = packageJSON.announcement;
 
